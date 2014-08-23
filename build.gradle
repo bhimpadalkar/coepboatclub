@@ -1,5 +1,4 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
 buildscript {
     repositories {
         mavenCentral()
@@ -10,9 +9,12 @@ buildscript {
         compile "com.android.support:appcompat-v7:18.0.+"
     }
 }
-
 allprojects {
     repositories {
         mavenCentral()
     }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:+'
 }
